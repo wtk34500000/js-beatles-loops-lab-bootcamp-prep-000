@@ -32,6 +32,7 @@ function johnLennonFacts(facts)
 function iLoveTheBeatles(n)
 {
   var newArr=[]
+  
   if(n<15)
   {
     do {
@@ -41,5 +42,6 @@ function iLoveTheBeatles(n)
     
     return newArr
   }else
+  
   return 'I love the Beatles!'
 }
