@@ -8,3 +8,4 @@ function theBeatlesPlay(arrMus, arrIns)
   }
   return newArr
 }
+
