@@ -1,10 +1,10 @@
 function theBeatlesPlay(arrMus, arrIns)
 {
-  var newArr={} 
+  var newArr=[] 
   
   for(let i=0; i<arrMus.length; i++)
   {
-    newArr[i]='${arrMus[i]} plays ${arrIns[i]}'
+    newArr.push 
   }
   return newArr
 }
