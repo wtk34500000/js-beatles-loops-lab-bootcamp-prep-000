@@ -35,9 +35,9 @@ function iLoveTheBeatles(n)
   if(n<15)
   {
     do {
-      newArr.push('I love the Beatles')
+      newArr.push('I love the Beatles!')
       n--
     }while(n>=0)
   }else
-  return 'I love the Beatles'
+  return 'I love the Beatles!'
 }
