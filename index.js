@@ -31,9 +31,12 @@ function johnLennonFacts(facts)
 
 function iloveTheBeatles(n)
 {
+  var newArr=[]
   if(n<15)
   {
-    
+    do {
+      newArr.push('')
+    }while(n>0)
   }else
   return 'I love the Beatles'
 }
