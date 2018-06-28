@@ -6,5 +6,5 @@ function theBeatlesPlay(arrMus, arrIns)
   {
     newArr[i]='${arrMus[i]} plays ${arrIns[i]}'
   }
-  
+  return newArr
 }
