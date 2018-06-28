@@ -29,7 +29,7 @@ function johnLennonFacts(facts)
   return newArr
 }
 
-function iloveTheBeatles(n)
+function iLoveTheBeatles(n)
 {
   var newArr=[]
   if(n<15)
