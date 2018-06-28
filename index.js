@@ -9,3 +9,7 @@ function theBeatlesPlay(arrMus, arrIns)
   return newArr
 }
 
+function johnLennonFacts(fact)
+{
+  
+}
