@@ -28,3 +28,12 @@ function johnLennonFacts(facts)
   
   return newArr
 }
+
+function iloveTheBeatles(n)
+{
+  if(n<15)
+  {
+    
+  }else
+  return 'I love the Beatles'
+}
