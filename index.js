@@ -4,7 +4,7 @@ function theBeatlesPlay(arrMus, arrIns)
   
   for(let i=0; i<arrMus.length; i++)
   {
-    newArr.push 
+    newArr.push(arrMus[i]+ "plays" +arrIns[i])
   }
   return newArr
 }
