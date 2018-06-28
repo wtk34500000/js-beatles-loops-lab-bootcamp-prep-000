@@ -9,8 +9,6 @@ function theBeatlesPlay(arrMus, arrIns)
   return newArr
 }
 
-function johnLennonFacts(fact)
-{
   const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
@@ -18,8 +16,15 @@ function johnLennonFacts(fact)
   "He hated the sound of his own voice"
 ];
 
+function johnLennonFacts(facts)
+{
   var newArr=[]
   
+  var i=0
+  while(i<facts.length)
+  {
+    newArr.push(facts[i]+'!!!')
+  }
   
-
+  return newArr
 }
